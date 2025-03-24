@@ -34,10 +34,11 @@ test {
 	testLogging {
 		events "passed", "skipped", "failed" //, "standardOut", "standardError"
 
-		showExceptions true
-		exceptionFormat "full"
-		showCauses true
-		showStackTraces true
+		// updating to latest Gradle syntax
+		showExceptions = true
+		exceptionFormat = "full"
+		showCauses =  true
+		showStackTraces = true
 
 		// Change from false to true
 		showStandardStreams = true
